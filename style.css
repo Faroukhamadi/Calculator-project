@@ -1,0 +1,45 @@
+@font-face {
+    font-family: calc-font;
+    src: url(digital-7.ttf);
+}
+
+p {
+    font-size: 50px;
+}
+
+.calc-container {
+    background-color: #575757;
+    font-family: calc-font;
+    padding-top: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.display {
+    display: flex;
+    color: black;
+    justify-content: right;
+    padding-right: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    background-color: #C0D3C1;
+    border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 20%;
+}
+
+button {
+    border: 6px solid #575757;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: large;
+    transition:  0.5s ease-out;
+}
+
+button:hover {
+    background-color: rgb(197, 196, 196);
+}
