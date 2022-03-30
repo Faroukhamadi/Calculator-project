@@ -58,11 +58,6 @@ function populateDisplay() {
                 display.textContent = operation(parseInt(firstNumber), parseInt(secondNumber), expression[indexOfOperator]);
 
             }
-            // console.log('FirstNumber: ' + firstNumber);
-            // console.log('SecondNumber: ' + secondNumber);
-            // console.log(expression);
-            // console.log(typeof finalNb);
-
         });
     }
 }
